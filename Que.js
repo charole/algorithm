@@ -78,6 +78,9 @@ console.log(queue.peak());
 console.log(queue.dequeue());
 console.log(queue.dequeue());
 
+/**
+ * @title max size를 두고 queue 구현
+ */
 class CircularQueue {
   constructor(maxSize) {
     this.maxSize = maxSize;
